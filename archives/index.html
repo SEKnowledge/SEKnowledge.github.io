@@ -597,11 +597,17 @@
         notify: false,
         appId: 'eBspJrVAkp7x5wpG2d7ezgU9-gzGzoHsz',
         appKey: 'smPOJH91AmlyVuDbAGnl1RcN',
-        placeholder: 'Just go go',
+        placeholder: '您可以使用MarkDown语法来调整评论格式',
         avatar:'mm',
         guest_info:guest,
         pageSize:'10' || 10,
     });
+    var infoEle = document.querySelector('#comments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
+      infoEle.childNodes.forEach(function(item) {
+        item.parentNode.removeChild(item);
+      });
+    }
   </script>
 
 

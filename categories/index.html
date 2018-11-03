@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="S E K">
 <meta property="og:description" content="理论都是灰色的,唯有生命之树长青。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-02T15:03:15.463Z">
+<meta property="og:updated_time" content="2018-11-03T05:19:26.861Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="categories">
 <meta name="twitter:description" content="理论都是灰色的,唯有生命之树长青。">
@@ -314,13 +314,6 @@
 
 
           
-
-  
-    <div class="comments" id="comments">
-    </div>
-  
-
-
 
         </div>
         
@@ -580,11 +573,17 @@
         notify: false,
         appId: 'eBspJrVAkp7x5wpG2d7ezgU9-gzGzoHsz',
         appKey: 'smPOJH91AmlyVuDbAGnl1RcN',
-        placeholder: 'Just go go',
+        placeholder: '您可以使用MarkDown语法来调整评论格式',
         avatar:'mm',
         guest_info:guest,
         pageSize:'10' || 10,
     });
+    var infoEle = document.querySelector('#comments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
+      infoEle.childNodes.forEach(function(item) {
+        item.parentNode.removeChild(item);
+      });
+    }
   </script>
 
 
