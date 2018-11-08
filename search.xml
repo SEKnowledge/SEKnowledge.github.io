@@ -3,7 +3,14 @@
   <entry>
     <title><![CDATA[t1]]></title>
     <url>%2F2018%2F11%2F08%2Ft1-7%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[ghfhgfhfghfghfghh2h3h4h5h6一级标题二级标题 hello world! hello world!hello world!hello world! hello world!hello world!hello world! aaaaaaaaa bbbbbbbbb cccccccccc 12345&lt;div&gt; &lt;div&gt;&lt;/div&gt; &lt;div&gt;&lt;/div&gt; &lt;div&gt;&lt;/div&gt;&lt;/div&gt;]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>PS3</tag>
+        <tag>Games</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[t1]]></title>
@@ -43,7 +50,14 @@
   <entry>
     <title><![CDATA[t1]]></title>
     <url>%2F2018%2F11%2F08%2Ft1%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[h1h2h3h4h5h6一级标题二级标题 hello world! hello world!hello world!hello world! hello world!hello world!hello world! aaaaaaaaa bbbbbbbbb cccccccccc 12345&lt;div&gt; &lt;div&gt;&lt;/div&gt; &lt;div&gt;&lt;/div&gt; &lt;div&gt;&lt;/div&gt;&lt;/div&gt;]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>PS3</tag>
+        <tag>Games</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[post title]]></title>

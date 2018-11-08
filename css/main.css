@@ -1610,7 +1610,7 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 80px auto 60px;
-  width: 8%;
+  width: 0%;
   height: 1px;
   background: #ccc;
   text-align: center;
@@ -1841,7 +1841,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50539a;
+  background: #75d5ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2717,7 +2717,7 @@ pre .javascript .function {
 .sidebar {
   position: static;
   float: left;
-  margin-top: 300px;
+  margin-top: 30px;
   width: 240px;
   background: #f5f7f9;
   box-shadow: none;
@@ -3070,11 +3070,4 @@ header.post-header {
   font-size: 15px;
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0);
   background-image: linear-gradient(90deg, #aaa 0%, #aaa 25%, #aaa 50%, #aaa 75%, #aaa 100%);
-}
-.post {
-  margin-top: -68px;
-  margin-bottom: 81px;
-  padding: 63px;
-  -webkit-box-shadow: 0 0 50px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
