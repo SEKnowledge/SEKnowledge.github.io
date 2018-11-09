@@ -3,12 +3,12 @@
   <entry>
     <title><![CDATA[洋葱服务]]></title>
     <url>%2F2018%2F11%2F09%2F20181109%2F</url>
-    <content type="text"><![CDATA[主要信息论文相关信息文章标题：主要作者：发表会议：发表时间：关键词：相关链接：https://www.usenix.org/conference/usenixsecurity18/presentation/winter 笔记作者信息笔记作者：lgr联系方式：liuguangrui@aliyun.com 论文内容心得体会]]></content>
+    <content type="text"><![CDATA[主要信息论文相关信息文章标题：How Do Tor Users Interact With Onion Services?主要作者：Philipp Winter, Anne Edmundson, and Laura M. Roberts发表会议：Proceedings of the 27th USENIX Security Symposium发表时间：2018/8/15–17关键词：洋葱服务，匿名通信相关链接：https://www.usenix.org/conference/usenixsecurity18/presentation/winter 笔记作者信息笔记作者：lgr联系方式：liuguangrui@aliyun.com 论文内容实验思路实现手段相关工作经验结论未来工作心得体会]]></content>
       <categories>
         <category>论文研读报告</category>
       </categories>
       <tags>
-        <tag>洋葱网络</tag>
+        <tag>洋葱服务</tag>
         <tag>匿名通信</tag>
       </tags>
   </entry>
