@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[【全篇精读】How Do Tor Users Interact With Onion Services?]]></title>
+    <title><![CDATA[How Do Tor Users Interact With Onion Services?]]></title>
     <url>%2F2018%2F11%2F09%2F20181109%2F</url>
     <content type="text"><![CDATA[主要信息论文相关信息文章标题：How Do Tor Users Interact With Onion Services?主要作者：Philipp Winter, Anne Edmundson, and Laura M. Roberts发表会议：Proceedings of the 27th USENIX Security Symposium发表时间：2018/8/15–17关键词：洋葱服务，匿名通信相关链接：https://www.usenix.org/conference/usenixsecurity18/presentation/winter 笔记作者信息笔记作者：lgr联系方式：liuguangrui@aliyun.com 论文内容 &emsp;&emsp;首先介绍了Tor浏览器与洋葱服务的关系与工作原理。解释了洋葱网络域名是如何产生的：首先生成一对公私钥，将公钥进行SHA-1加密，再截取80位进行base32加密，得到url中间部分。(如http://expyuzz4wqqyqhjn.onion) 并介绍了像facebook的洋葱域名(facebookcorewwwi.onion)的获取方式：事实上就是不断的生成公钥，直到计算结果的前几位是可读字符，其间可以通过马尔科夫模型来过滤一些费正确域。&emsp;&emsp;之后分析了洋葱服务存在的安全问题诸如网络钓鱼与流浪分析。同时通过不同年龄、学历、工作的人群进行分层采样调查，以及通过监听网络DNS解析的数据，得出了用户在洋葱服务上存在的真正需求。目前用户对洋葱服务最重要的需求是可用性需求：多数用户无法找到正确的洋葱网站，并且没有好的途径去管理或记忆洋葱网站。同时在安全方面，三分之一的用户没有验证洋葱域名真伪的习惯或不知道如何验证。&emsp;&emsp;最后提出了通过改进的Jaro-Winkler字符串相似性度量算法进行洋葱网路中疑似钓鱼网站的搜索，并通过其与真实网址DNS解析量的差异进行钓鱼网站可疑性的度量。 心得体会&emsp;&emsp;作为2018年USENIX中Anonymity部分的第一篇文章，它的工作更多的集中在用户调查方面。起初我是不理解这种文章为何能上会的。但看了一些文章后我发现纯调研类的文章数量真的不少。仔细思考，其实这样的工作是很重要的，尤其对于计算机行业来说，确定用户的需求目前网络环境、市场环境的形态。才能确立有价值研究方向与目标。&emsp;&emsp;洋葱网络经常被人们想的很神秘，出现了对所谓的暗网、深网不切实际的理解。像文章中说的一样，目前洋葱服务最缺乏的是可用性。即便做了很多正规的洋葱网站搜索引擎，用户如果不知道它的存在或不懂如何使用那并没有起到多大的作用。洋葱服务的运行商应加大对洋葱域名宣传并提供详细易懂的使用说明文档。让人们对洋葱服务的理解是隐私、匿名而非犯罪。]]></content>
       <categories>
