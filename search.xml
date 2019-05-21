@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[ads]]></title>
-    <url>%2F2019%2F05%2F20%2Fads%2F</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[ad]]></title>
-    <url>%2F2019%2F05%2F20%2Fad%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[IoT Botnet of High Wattage Devices Can Disrupt the Power Grid]]></title>
     <url>%2F2018%2F11%2F21%2F20181121-lgr%2F</url>
     <content type="text"><![CDATA[主要信息论文相关信息文章标题：BlackIoT: IoT Botnet of High Wattage Devices Can Disrupt the Power Grid主要作者：Saleh Soltan, Prateek Mittal, and H. Vincent Poor发表会议：Proceedings of the 27th USENIX Security Symposium发表时间：2018/08/15–17关键词：IoT，僵尸网络相关链接：https://www.usenix.org/conference/usenixsecurity18/presentation/soltan 笔记作者信息笔记作者：lgr联系方式：liuguangrui@aliyun.com 论文内容 &emsp;&emsp;IoT安全问题大多集中在由漏洞引起的个人隐私安全问题。在Mirai僵尸网络分布式攻击出现后，人们在注意到IoT漏洞的群体效应。本文介绍了一种名为MadIoT的攻击手段，其重要特征是，与以前对电网的攻击不同，它并不针对电网的监控和数据采集（SCADA）系统，而是通过负载来实施对电网的攻击。即高功率僵尸网络，如一些加热设备。由于工控网络中的设备需要严格的同频运行，这种攻击可能带来严重的连锁效应。本文提出了5种负载攻击导致的后果：（1）电网频率变化；（2）大规模停电；（3）线路损坏；（4）黑启动；（5）增加电网运营费用。 心得体会&emsp;&emsp;本文使我们注意到了生活中各种网络是有联系的，且依赖关系日益增强。物联网的漏洞可能给电网安全系统带来新的问题。电网运营商应将其考虑在内，做好预防准备。文中提出的黑启动（Black Start）是指一旦停电，电网运营商需要尽快重启系统。由于时间不足，因此同时重新启动整个网格可能会导致频率不稳定和系统再次出现故障。此过程被称为黑启动。本文只讨论了负载攻击如何利用黑启动，进一步引发停电。事实上，在负载攻击实现黑启动后，配合其他僵尸网络病毒发起攻击，可能会带来更严重的后果。]]></content>
